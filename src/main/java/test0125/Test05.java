@@ -16,7 +16,7 @@ public class Test05 {
 		}
 		System.out.println("请输入年龄:");
 		int age = scanner.nextInt();
-		if(p.getAge()<0&&p.getAge()>100) {
+		if(age<0||age>100) {
 			System.out.println("年龄不合法!");
 		}else{
 			p.setAge(age);
